@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">P.R. Rajagopalaiyengar &amp; Sons</title>
+  <desc id="desc">Electrical, plumbing and Texmo pump dealer in Thiruvarur since 1957.</desc>
+  <rect width="1200" height="630" fill="#09162F"/>
+  <rect x="34" y="34" width="1132" height="562" rx="34" fill="#0B1F4B" stroke="#E0A11B" stroke-width="4"/>
+  <circle cx="196" cy="186" r="96" fill="#0F2B63" stroke="#E0A11B" stroke-width="6"/>
+  <path d="M142 182H174C194 182 208 196 208 216V236H254" stroke="#F6B933" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="142" cy="182" r="13" fill="#0B1F4B" stroke="#F6D277" stroke-width="6"/>
+  <circle cx="254" cy="236" r="13" fill="#0B1F4B" stroke="#F6D277" stroke-width="6"/>
+  <path d="M211 154L196 142L181 154" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M198 178C198 178 178 196 178 213C178 226 188 236 200 236C212 236 222 226 222 213C222 196 198 178 198 178Z" fill="#74C7FF"/>
+  <path d="M203 192C203 192 192 202 192 211C192 217 196 221 203 221" stroke="#EAF6FF" stroke-width="4" stroke-linecap="round"/>
+  <text x="330" y="200" fill="#F8FAFC" font-size="54" font-family="Poppins, Arial, sans-serif" font-weight="700">P.R. Rajagopalaiyengar &amp; Sons</text>
+  <text x="330" y="258" fill="#F6B933" font-size="28" font-family="Poppins, Arial, sans-serif" font-weight="700" letter-spacing="4">EST. 1957</text>
+  <text x="330" y="330" fill="#D8E3F0" font-size="36" font-family="Poppins, Arial, sans-serif" font-weight="500">Electrical Materials • Plumbing Supplies • Texmo Pumps</text>
+  <text x="330" y="390" fill="#D8E3F0" font-size="28" font-family="Poppins, Arial, sans-serif" font-weight="400">Trusted local dealer serving Thiruvarur, Nagapattinam and nearby areas</text>
+  <rect x="330" y="448" width="282" height="60" rx="30" fill="#E0A11B"/>
+  <text x="372" y="487" fill="#09162F" font-size="28" font-family="Poppins, Arial, sans-serif" font-weight="700">Call +91 85082 26548</text>
+</svg>
