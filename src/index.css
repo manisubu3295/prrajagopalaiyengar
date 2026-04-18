@@ -2,64 +2,153 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand-red: #d6452e;
+  --brand-red-dark: #b63a27;
+  --brand-green: #2f5d50;
+  --brand-orange: #c85a2e;
+  --paper: #ffffff;
+  --paper-soft: #f4f8f6;
+  --ink: #1a1a1a;
+  --muted: #666666;
+}
+
 @layer base {
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: 'Poppins', system-ui, sans-serif;
-    @apply text-slate-800 antialiased;
+    background: var(--paper);
+    font-family: 'Source Sans 3', 'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', system-ui, sans-serif;
+    color: var(--ink);
+    @apply antialiased;
   }
 
   h1, h2, h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Bitter', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  section {
+    position: relative;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-brand-orange text-white font-semibold rounded-lg
-           shadow-md hover:bg-orange-700 active:scale-95 transition-all duration-200;
+    @apply inline-flex items-center gap-2 rounded-lg px-6 py-3 font-semibold text-white transition-colors duration-200;
+    background: var(--brand-red);
+    box-shadow: 0 10px 24px rgba(214, 69, 46, 0.16);
+  }
+
+  .btn-primary:hover {
+    background: var(--brand-red-dark);
   }
 
   .btn-whatsapp {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-brand-whatsapp text-white font-semibold rounded-lg
-           shadow-md hover:bg-green-600 active:scale-95 transition-all duration-200;
+    @apply inline-flex items-center gap-2 rounded-lg px-6 py-3 font-semibold text-white transition-colors duration-200;
+    background: var(--brand-green);
+    box-shadow: 0 10px 24px rgba(47, 93, 80, 0.16);
+  }
+
+  .btn-whatsapp:hover {
+    background: #24493f;
   }
 
   .btn-outline {
-    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white font-semibold rounded-lg
-           hover:bg-white hover:text-navy-900 active:scale-95 transition-all duration-200;
+    @apply inline-flex items-center gap-2 rounded-lg border px-6 py-3 font-semibold transition-colors duration-200;
+    border-color: rgba(47, 93, 80, 0.22);
+    color: var(--brand-green);
+    background: rgba(255, 255, 255, 0.9);
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-navy-900 leading-tight;
+    color: var(--brand-red);
+    @apply text-3xl font-bold leading-tight md:text-5xl;
   }
 
   .section-subtitle {
-    @apply text-lg text-slate-600 mt-3 leading-relaxed;
+    color: var(--muted);
+    @apply mt-3 text-base leading-relaxed md:text-lg;
   }
 
   .card {
-    @apply bg-white rounded-2xl shadow-card hover:shadow-hover transition-all duration-300 hover:-translate-y-1;
+    @apply rounded-[1.5rem] border bg-white transition-all duration-300;
+    border-color: rgba(47, 93, 80, 0.12);
+    box-shadow: 0 12px 30px rgba(26, 26, 26, 0.05);
   }
 
   .gold-badge {
-    @apply inline-flex items-center gap-1 px-3 py-1 bg-amber-100 text-amber-800
-           rounded-full text-xs font-semibold uppercase tracking-wide;
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wide;
+    background: #edf4f1;
+    color: var(--brand-green);
+    box-shadow: inset 0 0 0 1px rgba(47, 93, 80, 0.14);
   }
 
   .section-pad {
     @apply py-16 md:py-24;
+  }
+
+  .panel-paper {
+    @apply rounded-[1.75rem] border bg-white;
+    border-color: rgba(47, 93, 80, 0.14);
+    box-shadow: 0 16px 34px rgba(26, 26, 26, 0.06);
+  }
+
+  .section-kicker {
+    color: var(--brand-green);
+    @apply text-[0.7rem] font-bold uppercase tracking-[0.28em];
+  }
+
+  .link-arrow {
+    color: var(--brand-green);
+    @apply inline-flex items-center gap-2 font-semibold transition-colors hover:underline;
+  }
+
+  .tamil-text {
+    font-family: 'Noto Sans Tamil', 'Latha', 'Arial Unicode MS', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+
+  .trust-chip {
+    @apply inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold;
+    border-color: rgba(47, 93, 80, 0.22);
+    background: #f4f8f6;
+    color: var(--brand-green);
+  }
+
+  .header-title-board {
+    color: #c85a2e;
+    font-family: 'Bitter', Georgia, serif;
+    font-size: clamp(0.92rem, 2.2vw, 1.7rem);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.035em;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.6px #7a2e1c;
+    text-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.65),
+      0 1px 1px rgba(122, 46, 28, 0.18),
+      0 2px 0 rgba(169, 72, 39, 0.14);
+  }
+
+  .service-photo-card {
+    @apply overflow-hidden rounded-[1.5rem] border bg-white;
+    border-color: rgba(47, 93, 80, 0.14);
+    box-shadow: 0 16px 34px rgba(26, 26, 26, 0.06);
+  }
+
+  .service-photo-image {
+    @apply h-full w-full object-cover;
   }
 }
 
 /* Floating WhatsApp */
 .whatsapp-float {
   position: fixed;
-  bottom: 90px;
+  bottom: 96px;
   right: 20px;
   z-index: 9999;
-  animation: float 3s ease-in-out infinite;
 }
 
 /* Sticky Call Mobile */
@@ -69,13 +158,13 @@
   left: 0;
   right: 0;
   z-index: 9998;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 /* Announcement bar */
 .announcement-bar {
-  background: linear-gradient(90deg, #0B1F4B, #1D4ED8, #0B1F4B);
-  background-size: 200% 100%;
-  animation: shimmer 4s ease infinite;
+  background: #2f5d50;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 @keyframes shimmer {
@@ -83,21 +172,42 @@
   100% { background-position: -200% 0; }
 }
 
-/* Hero pattern */
-.hero-pattern {
-  background-image:
-    radial-gradient(circle at 20% 50%, rgba(59,130,246,0.15) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(245,158,11,0.10) 0%, transparent 50%);
+.storefront-frame::before {
+  content: '';
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(47, 93, 80, 0.12);
+  border-radius: 1.5rem;
+  pointer-events: none;
+}
+
+.notice-stripe {
+  background: #f4f8f6;
+}
+
+.shop-grid-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.shop-grid-card::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 3px;
+  background: #c87a1a;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.shop-grid-card:hover::after {
+  opacity: 1;
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #f1f5f9; }
-::-webkit-scrollbar-thumb { background: #1D4ED8; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #d6452e; border-radius: 3px; }
 
 /* Section divider */
 .wave-divider svg { display: block; }
-
-/* Animate on scroll placeholder */
-.aos-init { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
-.aos-animate { opacity: 1; transform: translateY(0); }

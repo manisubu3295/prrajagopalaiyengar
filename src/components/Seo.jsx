@@ -1,8 +1,7 @@
 import { Helmet } from 'react-helmet-async'
+import { BUSINESS_FULL_NAME, SITE_NAME, SITE_URL } from '../content/siteContent'
 
-const SITE_URL = 'https://www.prrajagopalaiyengar.in'
-const SITE_NAME = 'P.R. Rajagopalaiyengar & Sons'
-const DEFAULT_IMAGE = `${SITE_URL}/og-image.svg`
+const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`
 
 export default function Seo({
   title,
@@ -11,9 +10,26 @@ export default function Seo({
   keywords,
   image = DEFAULT_IMAGE,
   type = 'website',
+  breadcrumbs,
   children,
 }) {
   const canonicalUrl = `${SITE_URL}${path}`
+
+  const breadcrumbSchema = breadcrumbs
+    ? JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' },
+          ...breadcrumbs.map((crumb, i) => ({
+            '@type': 'ListItem',
+            position: i + 2,
+            name: crumb.name,
+            item: SITE_URL + crumb.path,
+          })),
+        ],
+      })
+    : null
 
   return (
     <Helmet>
@@ -25,17 +41,22 @@ export default function Seo({
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:type" content={type} />
-      <meta property="og:site_name" content={SITE_NAME} />
+      <meta property="og:site_name" content={BUSINESS_FULL_NAME} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={image} />
-      <meta property="og:image:alt" content={`${SITE_NAME} social preview`} />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:alt" content={`${SITE_NAME} — Authorized Texmo Dealer in Tiruvarur`} />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
+
+      {breadcrumbSchema ? (
+        <script type="application/ld+json">{breadcrumbSchema}</script>
+      ) : null}
 
       {children}
     </Helmet>

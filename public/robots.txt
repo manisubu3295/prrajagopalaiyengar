@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.prrajagopalaiyengar.in/sitemap.xml
+Disallow: /src/
+Disallow: /node_modules/
+
+Sitemap: https://prrajagopalaiyengar.com/sitemap.xml

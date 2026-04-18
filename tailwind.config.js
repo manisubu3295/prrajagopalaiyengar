@@ -30,8 +30,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ['"Playfair Display"', 'Georgia', 'serif'],
-        body:    ['Poppins', 'system-ui', 'sans-serif'],
+        heading: ['Bitter', 'Georgia', 'serif'],
+        body:    ['"Source Sans 3"', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         'hero-gradient': 'linear-gradient(135deg, #0B1F4B 0%, #1D4ED8 50%, #0B1F4B 100%)',
