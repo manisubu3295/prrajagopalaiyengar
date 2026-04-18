@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PRR favicon">
-  <rect width="64" height="64" rx="12" fill="#ffffff"/>
-  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#2F5D50" stroke-width="2"/>
-  <text x="32" y="40" text-anchor="middle" font-size="25" font-family="Georgia, serif" font-weight="700" fill="#D6452E">PRR</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PRR and Sons favicon">
+  <!-- Background -->
+  <rect width="64" height="64" rx="13" fill="#2F5D50"/>
+  <!-- Letter P — vertical stroke -->
+  <rect x="15" y="13" width="9" height="38" rx="2" fill="#ffffff"/>
+  <!-- Letter P — top arm -->
+  <rect x="24" y="13" width="16" height="9" rx="2" fill="#ffffff"/>
+  <!-- Letter P — right side connector -->
+  <rect x="40" y="22" width="8" height="9" rx="2" fill="#ffffff"/>
+  <!-- Letter P — middle arm -->
+  <rect x="24" y="31" width="16" height="9" rx="2" fill="#ffffff"/>
+  <!-- Red accent bar -->
+  <rect x="15" y="55" width="34" height="5" rx="2.5" fill="#D6452E"/>
 </svg>
