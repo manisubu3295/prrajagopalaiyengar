@@ -29,7 +29,7 @@ export const contactInfo = {
   whatsappName: 'Kesavan',
   addressLines: ['No. 185, Old Nagai Salai', 'Thiruvarur - 610 001', 'Tamil Nadu'],
   fullAddress: 'No. 185, Old Nagai Salai, Thiruvarur - 610 001, Tamil Nadu',
-  hours: 'Mon - Sat: 8:00 AM - 8:00 PM',
+  hours: 'Mon - Sat: 9:30 AM - 9:00 PM',
   mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62649.70786862378!2d79.5945!3d10.7726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a556a6a7b818c47%3A0xc3c1f7e432b1f6a1!2sThiruvarur%2C%20Tamil%20Nadu%20610001!5e0!3m2!1sen!2sin!4v1700000000000',
   serviceAreaLabel: 'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam',
 }
