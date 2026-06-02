@@ -26,7 +26,7 @@ export default function PumpsMotors() {
     <>
       <Seo
         title="Texmo Pumps & Motors Dealer in Tiruvarur | Authorized Texmo Dealer"
-        description="Authorized Texmo motor dealer in Tiruvarur for pumps, motors and related water-movement needs. Serving Tiruvarur, Thiruthuraipoondi and Mannargudi — call or WhatsApp for availability."
+        description="Authorized Texmo motor dealer in Tiruvarur for pumps, motors and related water-movement needs. Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam — call or WhatsApp for availability."
         path="/pumps-and-motors"
         breadcrumbs={[{ name: 'Pumps & Motors', path: '/pumps-and-motors' }]}
       />
@@ -41,7 +41,7 @@ export default function PumpsMotors() {
               <span className="gold-badge">Authorized Texmo Dealer</span>
               <h1 className="mt-4 font-heading text-3xl font-bold text-[#D6452E] md:text-4xl">Authorized Texmo Motor Dealer in Tiruvarur — Pumps and Motors</h1>
               <p className="tamil-text mt-3 text-sm text-[#2F5D50]">{bilingualText.pumpsSupport}</p>
-              <p className="mt-4 text-base leading-8 text-[#666666]">We are an authorized Texmo dealer in Tiruvarur, offering reliable pump and motor guidance for home, farm and building water needs across Tiruvarur, Thiruthuraipoondi and Mannargudi.</p>
+              <p className="mt-4 text-base leading-8 text-[#666666]">We are an authorized Texmo dealer in Tiruvarur, offering reliable pump and motor guidance for home, farm and building water needs across Tiruvarur, Thiruthuraipoondi and Nagapattinam.</p>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 <div className="rounded-[1rem] bg-[#f4f8f6] px-4 py-4 ring-1 ring-[#d7e5df]">
                   <p className="section-kicker">Primary Strength</p>

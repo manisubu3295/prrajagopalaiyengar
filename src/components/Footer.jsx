@@ -10,12 +10,18 @@ export default function Footer() {
             <p className="text-center font-semibold text-[#1A1A1A] md:text-left">{businessFacts.trustTitle} | {contactInfo.serviceAreaLabel}</p>
             <p className="tamil-text mt-1 text-center text-xs text-[#666666] md:text-left">{bilingualText.texmoLine}</p>
           </div>
-          <div className="flex gap-3">
-            <a href={`tel:${contactInfo.phone}`} className="rounded-lg bg-[#D6452E] px-5 py-2 text-sm font-bold text-white transition-colors hover:bg-[#b63a27]">
+          <div className="flex flex-wrap gap-2">
+            <a href={`tel:${contactInfo.phone}`} className="rounded-lg bg-[#D6452E] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-[#b63a27]">
               📞 {contactInfo.displayPhone}
             </a>
-            <a href={buildWhatsAppLink('Hello, I need help with a product or service enquiry.')} target="_blank" rel="noopener noreferrer" className="rounded-lg bg-[#2F5D50] px-5 py-2 text-sm font-bold text-white ring-1 ring-white/20 transition-colors hover:bg-[#24493f]">
-              💬 WhatsApp
+            <a href={`tel:${contactInfo.phone2}`} className="rounded-lg bg-[#D6452E] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-[#b63a27]">
+              📞 {contactInfo.displayPhone2}
+            </a>
+            <a href={`tel:${contactInfo.phone3}`} className="rounded-lg bg-[#D6452E] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-[#b63a27]">
+              📞 {contactInfo.displayPhone3}
+            </a>
+            <a href={buildWhatsAppLink('Hello, I need help with a product or service enquiry.')} target="_blank" rel="noopener noreferrer" className="rounded-lg bg-[#2F5D50] px-4 py-2 text-sm font-bold text-white ring-1 ring-white/20 transition-colors hover:bg-[#24493f]">
+              💬 WhatsApp {contactInfo.whatsappName}
             </a>
           </div>
         </div>
@@ -26,7 +32,7 @@ export default function Footer() {
           <div>
             <p className="font-heading text-2xl font-bold text-white">{BUSINESS_FULL_NAME}</p>
             <p className="mt-4 text-sm leading-relaxed text-[#e2ece8]">Authorized Texmo dealer for pumps, motors, electrical products, plumbing materials and borewell enquiries.</p>
-            <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-[#f0d9d2]">Serving Tiruvarur · Thiruthuraipoondi · Mannargudi</p>
+            <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-[#f0d9d2]">Serving Tiruvarur · Thiruthuraipoondi · Nagapattinam</p>
           </div>
 
           <div>
@@ -56,8 +62,10 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-[#d9e6e1]">
               <p>📍 {contactInfo.addressLines.join(', ')}</p>
               <p>📌 {contactInfo.serviceAreaLabel}</p>
-              <a href={`tel:${contactInfo.phone}`} className="block transition-colors hover:text-white">📞 {contactInfo.displayPhone}</a>
-              <a href={buildWhatsAppLink('Hello, I need help with a product or service enquiry.')} target="_blank" rel="noopener noreferrer" className="block transition-colors hover:text-white">💬 WhatsApp Us</a>
+              <a href={`tel:${contactInfo.phone}`} className="block transition-colors hover:text-white">📞 {contactInfo.displayPhone} <span className="text-[#aac8bf] text-xs">(call only)</span></a>
+              <a href={`tel:${contactInfo.phone2}`} className="block transition-colors hover:text-white">📞 {contactInfo.displayPhone2} <span className="text-[#aac8bf] text-xs">(WhatsApp)</span></a>
+              <a href={`tel:${contactInfo.phone3}`} className="block transition-colors hover:text-white">📞 {contactInfo.displayPhone3} <span className="text-[#aac8bf] text-xs">({contactInfo.whatsappName})</span></a>
+              <a href={buildWhatsAppLink('Hello, I need help with a product or service enquiry.')} target="_blank" rel="noopener noreferrer" className="block transition-colors hover:text-white">💬 WhatsApp {contactInfo.whatsappName}</a>
               <p>🕐 {contactInfo.hours}</p>
             </div>
           </div>

@@ -56,7 +56,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact | Authorized Texmo Dealer in Tiruvarur — Call or WhatsApp"
-        description="Call, WhatsApp or visit P.R. Rajagopalaiyengar & Sons — authorized Texmo dealer in Tiruvarur. Serving Tiruvarur, Thiruthuraipoondi and Mannargudi for electrical, plumbing, pumps and borewell enquiries."
+        description="Call, WhatsApp or visit P.R. Rajagopalaiyengar & Sons — authorized Texmo dealer in Tiruvarur. Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam for electrical, plumbing, pumps and borewell enquiries."
         path="/contact"
         breadcrumbs={[{ name: 'Contact', path: '/contact' }]}
       />
@@ -64,7 +64,7 @@ export default function Contact() {
       <PageHero
         eyebrow="Contact"
         title="Call or WhatsApp the Authorized Texmo Dealer for a Quick Enquiry"
-        description="Call, WhatsApp or visit us at No. 185, Old Nagai Salai, Tiruvarur. We help customers from Tiruvarur, Thiruthuraipoondi and Mannargudi with product availability, stock checks and borewell enquiries."
+        description="Call, WhatsApp or visit us at No. 185, Old Nagai Salai, Tiruvarur. We help customers from Tiruvarur, Thiruthuraipoondi and Nagapattinam with product availability, stock checks and borewell enquiries."
         message="Hello, I need help with a product or service enquiry."
         primaryLabel="Call the Shop"
         secondaryLabel="WhatsApp Us"
@@ -72,25 +72,45 @@ export default function Contact() {
 
       <section className="bg-white py-10 md:py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <a href={`tel:${contactInfo.phone}`} className="shop-grid-card flex min-h-[112px] items-center gap-4 rounded-[1.4rem] border border-[#e6c6bf] bg-[#fff7f4] p-5 shadow-[0_12px_28px_rgba(26,26,26,0.04)] transition-all hover:-translate-y-0.5 hover:bg-[#fbe9e4]">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#D6452E] text-xl text-white">📞</div>
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#D6452E] text-xl text-white">📞</div>
               <div>
-                <p className="text-sm font-bold text-[#1A1A1A]">Call Directly</p>
+                <p className="text-sm font-bold text-[#1A1A1A]">Call the Shop</p>
                 <p className="text-base font-semibold text-[#D6452E]">{contactInfo.displayPhone}</p>
+                <p className="mt-0.5 text-xs text-[#888]">Call only</p>
+              </div>
+            </a>
+
+            <a href={`tel:${contactInfo.phone2}`} className="shop-grid-card flex min-h-[112px] items-center gap-4 rounded-[1.4rem] border border-[#e6c6bf] bg-[#fff7f4] p-5 shadow-[0_12px_28px_rgba(26,26,26,0.04)] transition-all hover:-translate-y-0.5 hover:bg-[#fbe9e4]">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#D6452E] text-xl text-white">📞</div>
+              <div>
+                <p className="text-sm font-bold text-[#1A1A1A]">Call the Shop</p>
+                <p className="text-base font-semibold text-[#D6452E]">{contactInfo.displayPhone2}</p>
+                <p className="mt-0.5 text-xs text-[#2F5D50] font-semibold">Also on WhatsApp</p>
+              </div>
+            </a>
+
+            <a href={`tel:${contactInfo.phone3}`} className="shop-grid-card flex min-h-[112px] items-center gap-4 rounded-[1.4rem] border border-[#e6c6bf] bg-[#fff7f4] p-5 shadow-[0_12px_28px_rgba(26,26,26,0.04)] transition-all hover:-translate-y-0.5 hover:bg-[#fbe9e4]">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#D6452E] text-xl text-white">📞</div>
+              <div>
+                <p className="text-sm font-bold text-[#1A1A1A]">Call {contactInfo.whatsappName}</p>
+                <p className="text-base font-semibold text-[#D6452E]">{contactInfo.displayPhone3}</p>
+                <p className="mt-0.5 text-xs text-[#2F5D50] font-semibold">Also on WhatsApp</p>
               </div>
             </a>
 
             <a href={buildWhatsAppLink('Hello, I need help with a product or service enquiry.')} target="_blank" rel="noopener noreferrer" className="shop-grid-card flex min-h-[112px] items-center gap-4 rounded-[1.4rem] border border-[#d7e5df] bg-[#f4f8f6] p-5 shadow-[0_12px_28px_rgba(26,26,26,0.04)] transition-all hover:-translate-y-0.5 hover:bg-[#eaf2ef]">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#2F5D50] text-xl text-white">💬</div>
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#2F5D50] text-xl text-white">💬</div>
               <div>
-                <p className="text-sm font-bold text-[#1A1A1A]">WhatsApp</p>
-                <p className="text-base font-semibold text-[#2F5D50]">Chat Instantly</p>
+                <p className="text-sm font-bold text-[#1A1A1A]">WhatsApp {contactInfo.whatsappName}</p>
+                <p className="text-base font-semibold text-[#2F5D50]">{contactInfo.displayPhone3}</p>
+                <p className="mt-0.5 text-xs text-[#888]">Chat instantly</p>
               </div>
             </a>
 
             <div className="shop-grid-card flex min-h-[112px] items-center gap-4 rounded-[1.4rem] border border-[#d7e5df] bg-white p-5 shadow-[0_12px_28px_rgba(26,26,26,0.04)]">
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#2F5D50] text-xl text-white">📍</div>
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[#2F5D50] text-xl text-white">📍</div>
               <div>
                 <p className="text-sm font-bold text-[#1A1A1A]">Visit the Shop</p>
                 <p className="text-sm font-semibold text-[#2F5D50]">{contactInfo.addressLines[0]}</p>

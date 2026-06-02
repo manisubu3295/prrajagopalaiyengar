@@ -10,7 +10,7 @@ import borewellServicesImage from '../assets/borewell-services.jpg'
 
 const businessFacts = [
   'Authorized Texmo Dealer',
-  'Serving Tiruvarur, Thiruthuraipoondi, Mannargudi',
+  'Serving Tiruvarur, Thiruthuraipoondi, Nagapattinam',
   'Electrical, Plumbing & Borewell Services',
 ]
 
@@ -79,7 +79,7 @@ const offeringCards = [
 
 const trustItems = [
   'Authorized Texmo Dealer',
-  'Serving Tiruvarur, Mannargudi, Thiruthuraipoondi',
+  'Serving Tiruvarur, Nagapattinam, Thiruthuraipoondi',
   'Trusted Local Supplier',
 ]
 
@@ -88,7 +88,7 @@ export default function Home() {
     <>
       <Seo
         title="Authorized Texmo Dealer in Tiruvarur | Electrical, Plumbing, Pumps & Borewell"
-        description="Authorized Texmo motor dealer in Tiruvarur serving Tiruvarur, Thiruthuraipoondi and Mannargudi with electrical products, plumbing materials, pumps, motors and borewell enquiries."
+        description="Authorized Texmo motor dealer in Tiruvarur serving Tiruvarur, Thiruthuraipoondi and Nagapattinam with electrical products, plumbing materials, pumps, motors and borewell enquiries."
         keywords={localKeywords.join(', ')}
         path="/"
       />
@@ -129,7 +129,7 @@ function HeroSection() {
             </div>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-[#666666] md:text-lg">
-              Reliable product guidance, Texmo authority, and local walk-in support for customers across Tiruvarur, Mannargudi and Thiruthuraipoondi.
+              Reliable product guidance, Texmo authority, and local walk-in support for customers across Tiruvarur, Nagapattinam and Thiruthuraipoondi.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">

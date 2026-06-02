@@ -26,7 +26,7 @@
 
 - Texmo positioning must be visible in hero, trust, footer and SEO.
 - Tamil font support must use Noto Sans Tamil with safe fallbacks.
-- Homepage must instantly communicate Tiruvarur, Thiruthuraipoondi and Mannargudi service coverage.
+- Homepage must instantly communicate Tiruvarur, Thiruthuraipoondi and Nagapattinam service coverage.
 - Pumps and motors section must clearly connect to Texmo dealership authority.
 - About section must avoid founder details while still using the 67-year, 3-generation trust signal.
 
@@ -48,7 +48,7 @@
 ### Hero Option 1
 
 - Headline: Authorized Texmo Motor Dealer in Tiruvarur for Electrical, Plumbing and Borewell Needs
-- Subheadline: Serving Tiruvarur, Thiruthuraipoondi and Mannargudi with electrical materials, plumbing materials, pumps, motors and enquiry-first borewell support.
+- Subheadline: Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam with electrical materials, plumbing materials, pumps, motors and enquiry-first borewell support.
 - CTA 1: Call the Shop
 - CTA 2: WhatsApp Enquiry
 
@@ -62,7 +62,7 @@
 ### Hero Option 3
 
 - Headline: Need Texmo Motors, Electrical Materials or Borewell Support? Visit Us in Tiruvarur
-- Subheadline: 67 years of service across 3 generations with clear local support for Tiruvarur, Thiruthuraipoondi and Mannargudi.
+- Subheadline: 67 years of service across 3 generations with clear local support for Tiruvarur, Thiruthuraipoondi and Nagapattinam.
 - CTA 1: Call Now
 - CTA 2: Get WhatsApp Help
 
@@ -72,7 +72,7 @@
 - Authorized Texmo Motor Dealer
 - Wide product availability across electrical, plumbing, pumps and borewell-related support
 - Trusted local service built over 67 years across 3 generations
-- Serving Tiruvarur, Thiruthuraipoondi and Mannargudi
+- Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam
 
 ## Product Sections
 
@@ -110,7 +110,7 @@
 - Call button
 - WhatsApp button
 - Address
-- Service areas: Tiruvarur, Thiruthuraipoondi, Mannargudi
+- Service areas: Tiruvarur, Thiruthuraipoondi, Nagapattinam
 - Simple enquiry form
 
 # Tamil + English Content Examples
@@ -129,7 +129,7 @@
 
 ## Homepage Meta Description
 
-- Authorized Texmo motor dealer in Tiruvarur serving Tiruvarur, Thiruthuraipoondi and Mannargudi with electrical products, plumbing materials, pumps, motors and borewell enquiries.
+- Authorized Texmo motor dealer in Tiruvarur serving Tiruvarur, Thiruthuraipoondi and Nagapattinam with electrical products, plumbing materials, pumps, motors and borewell enquiries.
 
 ## Homepage H1
 
@@ -143,7 +143,7 @@
 - plumbing materials Tiruvarur
 - borewell service Tiruvarur
 - Texmo dealer in Thiruthuraipoondi
-- Texmo dealer in Mannargudi
+- Texmo dealer in Nagapattinam
 - Philips lights Tiruvarur
 - RR cables Tiruvarur
 - Legrand switches Tiruvarur
@@ -179,7 +179,7 @@ body {
 # Developer Checklist
 
 - [x] Add Texmo authority to hero, trust, footer and SEO
-- [x] Add service area coverage for Tiruvarur, Thiruthuraipoondi and Mannargudi
+- [x] Add service area coverage for Tiruvarur, Thiruthuraipoondi and Nagapattinam
 - [x] Add Tamil font support with Noto Sans Tamil fallback stack
 - [x] Add bilingual content examples into the live UI
 - [x] Keep borewell messaging enquiry-first and non-technical

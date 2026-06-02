@@ -4,7 +4,7 @@ import borewellServicesImage from '../assets/borewell-services.jpg'
 
 const borewellPoints = [
   'Borewell enquiries for new work and existing support are handled here — call or WhatsApp with your location and requirement first.',
-  'We serve Tiruvarur, Thiruthuraipoondi and Mannargudi for borewell-related needs.',
+  'We serve Tiruvarur, Thiruthuraipoondi and Nagapattinam for borewell-related needs.',
   'Along with borewell work, we can guide you on matching pumps, motors, pipes and cables from our dealer counter.',
   'Call for a quick discussion, or send a structured WhatsApp message — a ready-to-use format is provided below.',
 ]
@@ -40,7 +40,7 @@ export default function BorewellServices() {
     <>
       <Seo
         title="Borewell Services in Tiruvarur | Call or WhatsApp for Enquiry"
-        description="Borewell services in Tiruvarur — enquire by call or WhatsApp for new borewell work, existing support and related pump and pipe needs. Serving Tiruvarur, Thiruthuraipoondi and Mannargudi."
+        description="Borewell services in Tiruvarur — enquire by call or WhatsApp for new borewell work, existing support and related pump and pipe needs. Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam."
         path="/borewell-services"
         breadcrumbs={[{ name: 'Borewell Services', path: '/borewell-services' }]}
       />
@@ -54,7 +54,7 @@ export default function BorewellServices() {
             <div className="panel-paper p-6 md:p-8 lg:p-10">
               <span className="gold-badge">Borewell Support</span>
               <h1 className="mt-4 font-heading text-3xl font-bold text-[#D6452E] md:text-4xl">Borewell Services in Tiruvarur — Enquire by Call or WhatsApp</h1>
-              <p className="mt-4 text-base leading-8 text-[#666666]">We handle borewell enquiries for new work, existing borewell support and related material needs across Tiruvarur, Thiruthuraipoondi and Mannargudi. Tell us your location and requirement — we will guide you from there.</p>
+              <p className="mt-4 text-base leading-8 text-[#666666]">We handle borewell enquiries for new work, existing borewell support and related material needs across Tiruvarur, Thiruthuraipoondi and Nagapattinam. Tell us your location and requirement — we will guide you from there.</p>
               <EnquiryActions message={borewellWhatsAppTemplate} className="mt-8" primaryLabel="Call Now" secondaryLabel="WhatsApp Borewell Enquiry" />
             </div>
           </div>

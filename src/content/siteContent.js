@@ -6,7 +6,7 @@ export const SITE_TAGLINE = 'Authorized Texmo Dealer | Electrical, Plumbing, Pum
 export const businessFacts = {
   trustTitle: 'Authorized Texmo Motor Dealer',
   experienceLine: '67 years of service across 3 generations',
-  serviceAreas: ['Tiruvarur', 'Thiruthuraipoondi', 'Mannargudi'],
+  serviceAreas: ['Tiruvarur', 'Thiruthuraipoondi', 'Nagapattinam'],
 }
 
 export const bilingualText = {
@@ -18,14 +18,20 @@ export const bilingualText = {
 }
 
 export const contactInfo = {
-  phone: '+918508226548',
-  displayPhone: '+91 85082 26548',
-  whatsappNumber: '918508226548',
+  phone: '+919080125929',
+  displayPhone: '90801 25929',
+  phone2: '+918508226548',
+  displayPhone2: '85082 26548',
+  whatsappNumber2: '918508226548',
+  phone3: '+919443122476',
+  displayPhone3: '94431 22476',
+  whatsappNumber: '919443122476',
+  whatsappName: 'Kesavan',
   addressLines: ['No. 185, Old Nagai Salai', 'Thiruvarur - 610 001', 'Tamil Nadu'],
   fullAddress: 'No. 185, Old Nagai Salai, Thiruvarur - 610 001, Tamil Nadu',
   hours: 'Mon - Sat: 8:00 AM - 8:00 PM',
   mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62649.70786862378!2d79.5945!3d10.7726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a556a6a7b818c47%3A0xc3c1f7e432b1f6a1!2sThiruvarur%2C%20Tamil%20Nadu%20610001!5e0!3m2!1sen!2sin!4v1700000000000',
-  serviceAreaLabel: 'Serving Tiruvarur, Thiruthuraipoondi and Mannargudi',
+  serviceAreaLabel: 'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam',
 }
 
 export function buildWhatsAppLink(message) {
@@ -46,7 +52,7 @@ export const mainNav = [
 export const heroVariations = [
   {
     headline: 'Authorized Texmo Motor Dealer in Tiruvarur for Electrical, Plumbing and Borewell Needs',
-    subheadline: 'Serving Tiruvarur, Thiruthuraipoondi and Mannargudi with electrical materials, plumbing materials, pumps, motors and enquiry-first borewell support.',
+    subheadline: 'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam with electrical materials, plumbing materials, pumps, motors and enquiry-first borewell support.',
     primaryCta: 'Call the Shop',
     secondaryCta: 'WhatsApp Enquiry',
   },
@@ -58,7 +64,7 @@ export const heroVariations = [
   },
   {
     headline: 'Need Texmo Motors, Electrical Materials or Borewell Support? Visit Us in Tiruvarur',
-    subheadline: '67 years of service across 3 generations with clear local support for Tiruvarur, Thiruthuraipoondi and Mannargudi.',
+    subheadline: '67 years of service across 3 generations with clear local support for Tiruvarur, Thiruthuraipoondi and Nagapattinam.',
     primaryCta: 'Call Now',
     secondaryCta: 'Get WhatsApp Help',
   },
@@ -166,7 +172,7 @@ export const whyChooseUs = [
     description: '67 years of continuous service across 3 generations in Tiruvarur makes this a counter that customers depend on and return to.',
   },
   {
-    title: 'Serving Tiruvarur, Thiruthuraipoondi and Mannargudi',
+    title: 'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam',
     description: 'Customers from all three towns and nearby areas are welcome to call, WhatsApp or visit for product enquiries and borewell support.',
   },
 ]
@@ -175,17 +181,17 @@ export const aboutPoints = [
   'Authorized Texmo dealer for pumps, motors and related water-movement needs across Tiruvarur and nearby towns.',
   'A reliable one-stop counter for electrical products, plumbing materials and borewell enquiries in Tiruvarur.',
   '67 years of continuous service across 3 generations — a long local presence that customers can depend on.',
-  'Serving Tiruvarur, Thiruthuraipoondi and Mannargudi with practical product guidance and fast enquiry support.',
+  'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam with practical product guidance and fast enquiry support.',
 ]
 
 export const homepageFaqs = [
   {
     question: 'Are you an authorized Texmo dealer in Tiruvarur?',
-    answer: 'Yes. We are an authorized Texmo motor dealer in Tiruvarur, serving customers across Tiruvarur, Thiruthuraipoondi and Mannargudi for pump, motor and related water-movement needs.',
+    answer: 'Yes. We are an authorized Texmo motor dealer in Tiruvarur, serving customers across Tiruvarur, Thiruthuraipoondi and Nagapattinam for pump, motor and related water-movement needs.',
   },
   {
-    question: 'Do you supply pumps and motors in Mannargudi and Thiruthuraipoondi?',
-    answer: 'Yes. Customers from Mannargudi and Thiruthuraipoondi regularly enquire about Texmo pumps and motors. Call or WhatsApp to confirm availability and the best time to visit.',
+    question: 'Do you supply pumps and motors in Nagapattinam and Thiruthuraipoondi?',
+    answer: 'Yes. Customers from Nagapattinam and Thiruthuraipoondi regularly enquire about Texmo pumps and motors. Call or WhatsApp to confirm availability and the best time to visit.',
   },
   {
     question: 'Do you stock electrical products in Tiruvarur?',
@@ -201,7 +207,7 @@ export const homepageFaqs = [
   },
   {
     question: 'Which service areas do you cover?',
-    answer: 'Our primary service areas are Tiruvarur, Thiruthuraipoondi and Mannargudi. Customers from these towns and nearby areas are welcome to call or WhatsApp for product enquiries and borewell support.',
+    answer: 'Our primary service areas are Tiruvarur, Thiruthuraipoondi and Nagapattinam. Customers from these towns and nearby areas are welcome to call or WhatsApp for product enquiries and borewell support.',
   },
   {
     question: 'Can I send my product list on WhatsApp before visiting?',
@@ -221,5 +227,5 @@ export const localKeywords = [
   'Legrand switches in Thiruvarur',
   'Philips lights in Thiruvarur',
   'Texmo dealer in Thiruthuraipoondi',
-  'Texmo dealer in Mannargudi',
+  'Texmo dealer in Nagapattinam',
 ]

@@ -17,7 +17,7 @@ const businessBlocks = [
     description: 'Decades of continuous local service in Tiruvarur make this a counter customers return to and recommend.',
   },
   {
-    title: 'Serving Tiruvarur, Thiruthuraipoondi and Mannargudi',
+    title: 'Serving Tiruvarur, Thiruthuraipoondi and Nagapattinam',
     description: 'Customers from all three towns and nearby areas are welcome to call, WhatsApp or walk in for product enquiries.',
   },
 ]
@@ -27,7 +27,7 @@ export default function About() {
     <>
       <Seo
         title="About P.R. Rajagopalaiyengar & Sons | Authorized Texmo Dealer in Tiruvarur"
-        description="P.R. Rajagopalaiyengar & Sons — authorized Texmo dealer in Tiruvarur with 67 years of service. Electrical, plumbing, pumps, motors and borewell enquiries for Tiruvarur, Thiruthuraipoondi and Mannargudi."
+        description="P.R. Rajagopalaiyengar & Sons — authorized Texmo dealer in Tiruvarur with 67 years of service. Electrical, plumbing, pumps, motors and borewell enquiries for Tiruvarur, Thiruthuraipoondi and Nagapattinam."
         path="/about-business"
         breadcrumbs={[{ name: 'About Business', path: '/about-business' }]}
       />
@@ -35,7 +35,7 @@ export default function About() {
       <PageHero
         eyebrow="About Business"
         title="A Trusted Local Dealer Built Around Reliability, Texmo Authority and Support"
-        description="Authorized Texmo dealer in Tiruvarur with 67 years of local service. Electrical products, plumbing materials, Texmo pumps and motors, and borewell enquiries for customers across Tiruvarur, Thiruthuraipoondi and Mannargudi."
+        description="Authorized Texmo dealer in Tiruvarur with 67 years of local service. Electrical products, plumbing materials, Texmo pumps and motors, and borewell enquiries for customers across Tiruvarur, Thiruthuraipoondi and Nagapattinam."
         message="Hello, I want to know more about your business and services."
         primaryLabel="Call the Shop"
         secondaryLabel="WhatsApp Enquiry"
@@ -92,7 +92,7 @@ export default function About() {
           <div className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr] lg:gap-8">
             <div className="storefront-frame rounded-[1.5rem] bg-[#2F5D50] p-6 text-white shadow-sm md:p-8 lg:p-10">
               <h2 className="font-heading text-3xl font-bold md:text-4xl">Visit, Call or Send a WhatsApp Message</h2>
-              <p className="mt-4 max-w-2xl text-base leading-8 text-[#dbe8e3]">We are nearby, dependable and ready to help with practical product questions across Tiruvarur, Thiruthuraipoondi and Mannargudi.</p>
+              <p className="mt-4 max-w-2xl text-base leading-8 text-[#dbe8e3]">We are nearby, dependable and ready to help with practical product questions across Tiruvarur, Thiruthuraipoondi and Nagapattinam.</p>
               <p className="mt-5 text-sm text-[#f0d9d2]">📍 {contactInfo.fullAddress}</p>
               <EnquiryActions
                 message="Hello, I want to know more about your business and services."
@@ -104,7 +104,7 @@ export default function About() {
 
             <div className="panel-paper p-6 md:p-8 lg:p-10">
               <p className="section-kicker">Service Reach</p>
-              <h2 className="mt-3 font-heading text-3xl font-bold text-[#D6452E]">Service Areas: Tiruvarur, Thiruthuraipoondi and Mannargudi</h2>
+              <h2 className="mt-3 font-heading text-3xl font-bold text-[#D6452E]">Service Areas: Tiruvarur, Thiruthuraipoondi and Nagapattinam</h2>
               <div className="mt-6 grid gap-3">
                 {businessFacts.serviceAreas.map((area) => (
                   <div key={area} className="rounded-[1rem] bg-[#f9fbfa] px-4 py-4 text-sm font-semibold text-[#1A1A1A] ring-1 ring-[#d7e5df]">
@@ -112,7 +112,7 @@ export default function About() {
                   </div>
                 ))}
               </div>
-              <p className="mt-5 text-sm leading-7 text-[#666666]">We regularly serve customers from Tiruvarur, Thiruthuraipoondi and Mannargudi. Call or WhatsApp before visiting to check stock or confirm your requirement.</p>
+              <p className="mt-5 text-sm leading-7 text-[#666666]">We regularly serve customers from Tiruvarur, Thiruthuraipoondi and Nagapattinam. Call or WhatsApp before visiting to check stock or confirm your requirement.</p>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export default function FaqSection({ faqs, title = 'Frequently Asked Questions',
           <div className="text-center">
             <span className="gold-badge">{eyebrow}</span>
             <h2 className="section-title mt-4">{title}</h2>
-            <p className="section-subtitle mx-auto mt-3 max-w-2xl">Common questions from customers in Tiruvarur, Thiruthuraipoondi and Mannargudi.</p>
+            <p className="section-subtitle mx-auto mt-3 max-w-2xl">Common questions from customers in Tiruvarur, Thiruthuraipoondi and Nagapattinam.</p>
           </div>
 
           <div className="mt-10 space-y-3">
